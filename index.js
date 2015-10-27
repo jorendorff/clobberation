@@ -3,7 +3,7 @@
 require('es6-promise').polyfill();
 var app = require('express')();
 var server = require('http').Server(app);
-var io = require('socket.io')(server);
+var io = require('slow.io')(server);
 
 app.get('/', function (req, res) {
   res.sendFile(__dirname + "/index.html");
