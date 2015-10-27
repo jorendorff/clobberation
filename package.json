@@ -2,10 +2,19 @@
   "name": "clobberation",
   "version": "0.0.1",
   "description": "How not to do collaborative text editing",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jorendorff/clobberation.git"
+  },
   "dependencies": {
     "es6-promise": "^3.0.2",
     "express": "^4.13.3",
     "socket.io": "^1.3.6",
     "socket.io-client": "^1.3.6"
-  }
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jorendorff/clobberation/issues"
+  },
+  "homepage": "https://github.com/jorendorff/clobberation#readme"
 }
