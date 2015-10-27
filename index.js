@@ -19,8 +19,9 @@ io.on('connection', function (socket) {
   socket.emit('update', text);  
 });
 
-server.listen(3000, function () {
-  console.log('listening on *:3000');
+var port = Number(process.env.PORT) || 3001;
+server.listen(port, function () {
+  console.log('listening on *:' + port);
 });
 
 exports.server = server;
