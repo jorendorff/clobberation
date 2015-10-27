@@ -1,4 +1,4 @@
-# Clobberation: How not to implement collaborative editing
+# Clobberation: Edit text with a friend and destroy their work
 
 *(stab 1)*
 
