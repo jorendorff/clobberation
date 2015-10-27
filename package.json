@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "express": "^4.13.3",
-    "slow.io": "file:../slow.io"
+    "slow.io": "^0.0.1"
   },
   "license": "MIT",
   "bugs": {
