@@ -1,3 +1,5 @@
+"use strict";
+
 require('es6-promise').polyfill();
 var app = require('express')();
 var server = require('http').Server(app);
