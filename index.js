@@ -15,7 +15,7 @@ io.on('connection', function (socket) {
     text = msg;
     socket.broadcast.emit('update', msg);
   });
-  socket.emit('update', text);  
+  socket.emit('update', text);
 });
 
 var port = Number(process.env.PORT) || 3001;
